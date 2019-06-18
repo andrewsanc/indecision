@@ -1,8 +1,10 @@
-const template = React.createElement(
-  "h1",
-  { id: "someid" },
-  "Something New"
+'use strict';
+
+var template = React.createElement(
+  'h1',
+  null,
+  'Indecision App'
 );
-const appRoot = document.getElementById('id')
+var appRoot = document.getElementById('app');
 
 ReactDOM.render(template, appRoot);
